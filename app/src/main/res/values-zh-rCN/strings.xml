@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SystemLog</string>
+    <string name="logger">日志</string>
+    <string name="autosave">保存日志</string>
+    <string name="developer">开发者选项</string>
+    <string name="netDebug">网络调试</string>
+    <string name="level">级别:</string>
+    <string name="format">格式化:</string>
+    <string name="buffer">缓存:</string>
+    <string name="autosave_summary">将日志保存到一个文件中</string>
+    <string name="level_summary">设置保存日志的级别</string>
+    <string name="format_summary">设置保存日志的格式</string>
+    <string name="buffer_summary">设置保存日志的缓冲区</string>
+    <string name="about_summary">---</string>
+    <string name="about">--</string>
+    <string name="about_title">---</string>
+    <string name="about_message">--</string>
+
+</resources>
