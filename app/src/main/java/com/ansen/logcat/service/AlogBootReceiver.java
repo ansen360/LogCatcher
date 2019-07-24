@@ -1,8 +1,11 @@
-package com.ansen.logcat;
+package com.ansen.logcat.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
+import com.ansen.logcat.comm.Comm;
+import com.ansen.logcat.utils.PreferenceEngine;
 
 
 public class AlogBootReceiver extends BroadcastReceiver {

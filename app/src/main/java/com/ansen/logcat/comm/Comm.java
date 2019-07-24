@@ -1,4 +1,4 @@
-package com.ansen.logcat;
+package com.ansen.logcat.comm;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,6 +10,7 @@ import java.util.Enumeration;
 
 import android.util.Log;
 
+import com.ansen.logcat.utils.NetCfg;
 
 public class Comm {
 	public final static String TAG = "ansen";
@@ -25,9 +26,7 @@ public class Comm {
 					InetAddress inetAddress = enumIPAddr.nextElement();
 					// 如果不是回环地址
 					if (!inetAddress.isLoopbackAddress()
-//							&& InetAddressUtils.isIPv4Address(inetAddress
-//									.getHostAddress())
-									) {
+							) {
 						nc = new NetCfg();
 						nc.setIp(inetAddress.getHostAddress().toString());
 						nc.setName(intf.getName());

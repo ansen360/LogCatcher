@@ -1,4 +1,4 @@
-package com.ansen.logcat;
+package com.ansen.logcat.utils;
 
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;

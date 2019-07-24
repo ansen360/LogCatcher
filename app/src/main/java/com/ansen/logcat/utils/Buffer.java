@@ -1,8 +1,10 @@
-package com.ansen.logcat;
+package com.ansen.logcat.utils;
 
 import java.util.HashMap;
 
 import android.content.Context;
+
+import com.ansen.logcat.R;
 
 
 public enum Buffer {

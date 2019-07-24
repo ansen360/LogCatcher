@@ -1,7 +1,9 @@
-package com.ansen.logcat;
+package com.ansen.logcat.utils;
 
 import android.content.Context;
 import android.graphics.Color;
+
+import com.ansen.logcat.R;
 
 
 public enum Level {

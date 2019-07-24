@@ -1,10 +1,12 @@
-package com.ansen.logcat;
+package com.ansen.logcat.utils;
 
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import android.content.Context;
+
+import com.ansen.logcat.R;
 
 
 public enum Format {

@@ -1,7 +1,8 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent" android:layout_width="match_parent">
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
-    <PreferenceCategory android:title="@string/logger">
+    <PreferenceCategory android:title="@string/logger" >
 
         <CheckBoxPreference
             android:defaultValue="false"
@@ -33,6 +34,7 @@
             android:summary="@string/buffer_summary"
             android:title="@string/buffer" />
     </PreferenceCategory>
+
 
 
 </PreferenceScreen>

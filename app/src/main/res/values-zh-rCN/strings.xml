@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SystemLog</string>
+    <string name="app_name">Logcat</string>
     <string name="logger">日志</string>
     <string name="autosave">保存日志</string>
     <string name="developer">开发者选项</string>

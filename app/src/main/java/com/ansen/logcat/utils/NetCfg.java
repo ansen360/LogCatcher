@@ -1,4 +1,4 @@
-package com.ansen.logcat;
+package com.ansen.logcat.utils;
 
 
 public class NetCfg {

@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Logcat</string>
+
+    <string name="app_name">SystemLog</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    
     <string name="logger">Logger</string>
     <string name="autosave">Auto Saving</string>
     <string name="developer">Developer options</string>
@@ -10,13 +12,13 @@
     <string name="level">Level?</string>
     <string name="format">Format?</string>
     <string name="buffer">Buffer?</string>
-
+    
     <string name="autosave_summary">Automatically save the log to a file.</string>
     <string name="level_summary">Log level used to display log entries.</string>
     <string name="format_summary">Log format to use when displaying log entries.</string>
     <string name="buffer_summary">Log buffer to display.</string>
     <string name="about_summary">--</string>
-
+    
     <string name="fatal_title">Fatal</string>
     <string name="error_title">Error</string>
     <string name="warn_title">Warning</string>
@@ -37,4 +39,6 @@
     <string name="about">--</string>
     <string name="about_title">--</string>
     <string name="about_message">--</string>
+    
+
 </resources>
