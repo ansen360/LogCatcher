@@ -35,7 +35,8 @@ public class LogEngine {
 		try {
 			Log.d(TAG,"LogEngine is start: format: "+mPrefs.getFormat().getValue()+"  buffer: "+mPrefs.getBuffer().getValue()+"  level: "+mPrefs.getLevel().getValue());
 
-			String[] cmd = { "logcat", "-v", mPrefs.getFormat().getValue(),"-b", mPrefs.getBuffer().getValue(),"*:" + mPrefs.getLevel() + "\n" };
+//			String[] cmd = { "logcat", "-v", mPrefs.getFormat().getValue(),"-b", mPrefs.getBuffer().getValue(),"*:" + mPrefs.getLevel() + "\n" };
+			String[] cmd = { "logcat" };
 
 			File file = new File(path + "/"+ dataFormat.format(new Date()) +mPrefs.getFormat().getValue() + ".txt");
 			file.createNewFile();
