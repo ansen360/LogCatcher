@@ -18,14 +18,14 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file('E:\\AS_workspace\\Logcat\\SystemSigned.jks')
+            storeFile file('E:\\AS_workspace\\LogCatcher\\SystemSigned.jks')
             storePassword '123456789'
             keyAlias 'ansen'
             keyPassword '123456789'
         }
 
         debug {
-            storeFile file('E:\\AS_workspace\\Logcat\\SystemSigned.jks')
+            storeFile file('E:\\AS_workspace\\LogCatcher\\SystemSigned.jks')
             storePassword '123456789'
             keyAlias 'ansen'
             keyPassword '123456789'

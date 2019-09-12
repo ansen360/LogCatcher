@@ -37,7 +37,7 @@ public class MainActivity extends PreferenceActivity implements
 		addPreferencesFromResource(R.layout.preference);
 		mPreferenceEngine = new PreferenceEngine(this);
 		init();
-		
+
 	}
 
 	private void init() {

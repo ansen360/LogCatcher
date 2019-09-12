@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class LogSaveService extends Service {
 
-    private ScheduledExecutorService service;
+    private ScheduledExecutorService mService;
     private LogEngine mLogEngine;
 
     @Override
@@ -29,8 +29,8 @@ public class LogSaveService extends Service {
 
             }
         };
-        service = Executors.newSingleThreadScheduledExecutor();
-        service.scheduleAtFixedRate(runnable, 0, 12, TimeUnit.HOURS);
+        mService = Executors.newSingleThreadScheduledExecutor();
+        mService.scheduleAtFixedRate(runnable, 0, 12, TimeUnit.HOURS);
 
 		return super.onStartCommand(intent, flags, startId);
 	}
@@ -43,6 +43,6 @@ public class LogSaveService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        service.shutdown();     // 不可以再submit新的task,已经submit的将继续执行
+        mService.shutdown();     // 不可以再submit新的task,已经submit的将继续执行
     }
 }
